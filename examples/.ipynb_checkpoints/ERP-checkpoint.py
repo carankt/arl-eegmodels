@@ -203,6 +203,7 @@ preds       = probs.argmax(axis = -1)
 acc         = np.mean(preds == Y_test.argmax(axis=-1))
 print("Classification accuracy: %f " % (acc))
 
+
 ############################# PyRiemann Portion ##############################
 
 # code is taken from PyRiemann's ERP sample script, which is decoding in 
